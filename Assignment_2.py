@@ -1,3 +1,7 @@
+from input_functions import fahrenheit_conversion, get_celsius, get_fahrenheit, celsius_Conversion, get_number1, \
+    get_number2, get_number3
+
+
 # 1 - Shopping program
 def discount_program():
     is_member = False
@@ -25,14 +29,12 @@ def discount_program():
     print(f"Efter rebatter blir priset... {final_price:.2f} kr \n\n")
 
 
-#-------------------------------------------------------------
+#------------------------------------------------------------------------------------------------
 
-# 2 - To ride Balder at Liseberg you must be 130 cm tall. Write a program that can tell you if you can ride!
+# 2 - Balder - To ride Balder at Liseberg you must be 130 cm tall. Write a program that can tell you if you can ride!
 
 def height_program():
-    is_member = False
-    level1 = 100
-    level2 = 200
+    #getting the person height in cm
     person_height = float(input("Enter you height in cm : "))
 
 #Checking the condition with if statement
@@ -42,9 +44,9 @@ def height_program():
         print("Your are not allowed to ride \n\n")
 
 
-#-------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
 
-# 3 -  program that asks the user how many goals each team scored, and tells which team won.
+# 3 - Sports Results-  program that asks the user how many goals each team scored, and tells which team won.
 
 def championship_league():
     print(" Tottenham & Liverpool - championship League")
@@ -72,27 +74,9 @@ def championship_league():
         print(f"Liverpool won by {goals_ahead} goals")
 
 
-#-------------------------------------------------------------
+#------------------------------------------------------------------------------------------------
 
-#  4 - Write a program that can convert a temperature in degrees Celsius to degrees Fahrenheit.
-##########################################################################
-#Reusable module - Formula for temperature conversion
-
-#Celsius Conversion
-def celsius_Conversion(F_fahrenheit):
-    return (F_fahrenheit - 32) / 1.8
-
-#Fahrenheit conversion
-def fahrenheit_conversion(C_celsius):
-    return 1.8 * C_celsius + 32
-
-def get_celsius():
-    return float(input("Enter a temperature in Celsius : "))
-
-def get_fahrenheit():
-    return float(input("Enter a temperature in Fahrenheit : "))
-
-###########################################################################
+#  4 - Temperature Conversion - Write a program that can convert a temperature in degrees Celsius to degrees Fahrenheit.
 
 #Conversion
 def temp_conversion():
@@ -126,64 +110,46 @@ def temp_conversion():
     elif temp_choice == "F" and celsius_C <= 10:
         print("It's cold outside and don't forget to wear jacket")
 
+#------------------------------------------------------------------------------------------------
 
+# 5 - Calculators
+#5.1 - Sum of 3 nos
+def calculator():
+    number_1 = get_number1()
+    number_2 = get_number2()
+    number_3 = get_number3()
 
+    total = number_1 + number_2 + number_3
+    print(f"Sum of 3 numbers are : {total} \n")
 
+# 5.2 - finding largest number
+     # number_1 is biggest and same
+    if number_1 >= number_2 and number_1 >= number_3:
+        print(f"number_1 {number_1} is the largest \n")
+    elif number_2 >= number_3 and number_2 >= number_1:
+        print(f"number_2 {number_2} is the largest \n")
+    else:
+        print(f"number_3 {number_3} is the largest \n")
 
+    # 5.3 - finding the same number
+    if number_1 == number_2 and number_1 != number_3:
+        print(f"number_1 and number_2 are same : {number_1, number_2} \n")
+    elif number_1 == number_3 and number_1 != number_2:
+         print(f"number_1 and number_3 are same : {number_1, number_3} \n")
+    elif number_2 == number_3 and number_2 != number_1:
+        print(f"number_2 and number_3 are same : {number_2, number_3} \n")
 
+    #5.4 Finding the middle number
+    if number_1 == number_2 or number_2 == number_3:
+        print("First or last 2 numbers are same, so no middle number \n")
+    else:
+        #using len function finding the no of items entered(list in total)
+        number_entered = [number_1, number_2, number_3]
+        nos_in_total = len(number_entered)
 
+        # // leaves the decimal
+        middle_position = nos_in_total // 2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-#Choose which program to run
-program_to_run = input("Choose a program to run (1/2) : ")
-if program_to_run == "1":
-    discount_program()
-elif program_to_run == "2":
-    height_program()
-"""
+        #getting the middle no value
+        middle_number = number_entered[middle_position]
+        print(f"Middle number is : {middle_number} \n")

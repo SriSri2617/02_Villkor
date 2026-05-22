@@ -1,9 +1,10 @@
 README for Assignment_2
 All programs are implemented as separate modules using def() functions in Assignment_2.py.
+input_functions file is for repeated functions and inputs, which is used in Assignemnt_2.py.
 
 These modules are imported and executed from main.py, where you can choose which program to run and test.
 
-Assignment 1 - error program
+#1 - error program
 ```python
 is_member = False
 level1 = 100
@@ -29,7 +30,7 @@ print("Efter rebatter blir priset... " + final_price)
 
 ---------------------------------------------------------------------
 
-Assignment 2 - To ride Balder at Liseberg you must be 130 cm tall. Write a program that can tell you if you can ride!
+#2 - To ride Balder at Liseberg you must be 130 cm tall. Write a program that can tell you if you can ride!
 
 reason to test Test_Cases with 3 different values - Boundary Value Analysis testing
 
@@ -57,7 +58,7 @@ This confirms that the condition `height >= 130` works correctly for all boundar
 
 --------------------------------------------------------------------- 
 
-Assignment 3 -  program that asks the user how many goals each team scored, and tells which team won.
+#3 -  program that asks the user how many goals each team scored, and tells which team won.
 
 3 different cases tested
 
@@ -71,8 +72,8 @@ And the program will tell you how many more goals the team won by using
 - abs is used for absolute value of number - it removes the - sign and only gives + number
 
 --------------------------------------------------------------------- 
-
-Assignment 4 - Write a program that can convert a temperature in degrees Celsius to degrees Fahrenheit.
+ 
+#4 - Write a program that can convert a temperature in degrees Celsius to degrees Fahrenheit.
 
 Formula for converting between temperature units:
     - C = (F - 32) / 1.8
@@ -91,6 +92,17 @@ Values tested with
     temp_choice = input("You want to enter the temperature in Fahrenheit or Celsius (Enter F or C) : ").upper()
 ~~~
     - upper() - is used to remove the case sensitive. It handles the lowercase automatically.
+
+--------------------------------------------------------------------- 
+
+#5 Calculators
+if elif is used to find the largest and same numbers.
+For finding the middle number - len() function is used -  this will count list of numbers entered.
+// is used to leave the decimal point, list/2 is - finding the middle position
+
+
+
+
 
 
 
