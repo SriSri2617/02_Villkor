@@ -1,10 +1,11 @@
-README for Assignment_2
+README for Assignment_2 <br />
+
 All programs are implemented as separate modules using def() functions in Assignment_2.py.
 input_functions file is for repeated functions and inputs, which is used in Assignemnt_2.py.
 
 These modules are imported and executed from main.py, where you can choose which program to run and test.
 
-while true - is used to repeat the programs and to select the choice until user stop.
+    - while true - is used to repeat the programs and to select the choice until user stop.
 
 #1 - error program
 ```python
@@ -77,8 +78,8 @@ And the program will tell you how many more goals the team won by using
  
 #4 - Write a program that can convert a temperature in degrees Celsius to degrees Fahrenheit.
 
-Formula for converting between temperature units:
-    - C = (F - 32) / 1.8
+Formula for converting between temperature units: <br />
+    - C = (F - 32) / 1.8 <br />
     - F = 1.8 * C + 32
 
 Values tested with
