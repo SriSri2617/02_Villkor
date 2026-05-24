@@ -63,15 +63,15 @@ def championship_league():
 
     if tottenham > liverpool:
         print("Tottenham won the match")
-        print(f"Tottenham won by {goals_ahead} goals")
+        print(f"Tottenham won by {goals_ahead} goals \n")
 
     elif tottenham == liverpool:
         print("It's draw / tie match")
-        print(f"Both the team has {tottenham} goals")
+        print(f"Both the team has {tottenham} goals \n")
 
     else:
         print("Liverpool won the match")
-        print(f"Liverpool won by {goals_ahead} goals")
+        print(f"Liverpool won by {goals_ahead} goals \n")
 
 
 #------------------------------------------------------------------------------------------------
@@ -106,9 +106,9 @@ def temp_conversion():
 
 # Checking the converted temperature is below 10 degree Celsius
     if temp_choice == "C" and C <= 10:
-        print("It's cold outside and don't forget to wear jacket")
+        print("It's cold outside and don't forget to wear jacket \n")
     elif temp_choice == "F" and celsius_C <= 10:
-        print("It's cold outside and don't forget to wear jacket")
+        print("It's cold outside and don't forget to wear jacket \n")
 
 #------------------------------------------------------------------------------------------------
 
@@ -143,8 +143,9 @@ def calculator():
     if number_1 == number_2 or number_2 == number_3:
         print("First or last 2 numbers are same, so no middle number \n")
     else:
-        #using len function finding the no of items entered(list in total)
+        # fetching the entered no's as list
         number_entered = [number_1, number_2, number_3]
+        # using len function finding the no of items entered(list in total)
         nos_in_total = len(number_entered)
 
         # // leaves the decimal

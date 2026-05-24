@@ -8,6 +8,7 @@ while True:
     print("4. Temperature Conversion")
     print("5. Calculator")
     program_to_run = input("Choose a program to run (1/2/3/4/5) : ")
+    print()
     if program_to_run == "1":
         discount_program()
     elif program_to_run == "2":
@@ -23,7 +24,8 @@ while True:
 
 # choice to run another program
 
-    choice = input("Do you want to run another program? (y/n) : " "\n").upper()
+    choice = input("Do you want to run another program? (y/n) : ").upper()
+    print()
     if choice != "Y":
       print("Thank you \n")
       break
