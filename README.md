@@ -103,6 +103,15 @@ For finding the middle number - len() function is used -  this will count list o
 // is used to leave the decimal point, list/2 is - finding the middle position
 
 
+Tested with values
+
+| number_1 | number_2 | number_3 | Biggest no | same numbers | Middle number |
+|:--------:|----------|----------|:----------:|:------------:|:-------------:|
+|    3     |    4     |    3     |     4      |     yes      |       4       |
+|    56    |    0     |    5     |     56     |      No      |       0       |
+|    5     |    6     |    6     |     6      |     yes      | no middle no  |    
+
+
 
 
 
