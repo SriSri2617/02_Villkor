@@ -4,6 +4,8 @@ input_functions file is for repeated functions and inputs, which is used in Assi
 
 These modules are imported and executed from main.py, where you can choose which program to run and test.
 
+while true - is used to repeat the programs and to select the choice until user stop.
+
 #1 - error program
 ```python
 is_member = False

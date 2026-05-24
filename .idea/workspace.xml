@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54002bed-334e-40d8-bc93-0623ebd02f94" name="Changes" comment="Update 1 - Readme">
-      <change afterPath="$PROJECT_DIR$/input_functions.py" afterDir="false" />
+    <list default="true" id="54002bed-334e-40d8-bc93-0623ebd02f94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,8 @@
       <workItem from="1779263942443" duration="12868000" />
       <workItem from="1779378437444" duration="10848000" />
       <workItem from="1779392204019" duration="2577000" />
-      <workItem from="1779452245679" duration="8225000" />
+      <workItem from="1779452245679" duration="9325000" />
+      <workItem from="1779637787779" duration="2275000" />
     </task>
     <task id="LOCAL-00001" summary="Update - Readme">
       <option name="closed" value="true" />
@@ -164,6 +165,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/02_villkor$exercise_2.coverage" NAME="exercise_2 Coverage Results" MODIFIED="1779384358875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/02_villkor$main.coverage" NAME="main Coverage Results" MODIFIED="1779460750642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$main.coverage" NAME="main Coverage Results" MODIFIED="1779641635678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -153,3 +153,4 @@ def calculator():
         #getting the middle no value
         middle_number = number_entered[middle_position]
         print(f"Middle number is : {middle_number} \n")
+
