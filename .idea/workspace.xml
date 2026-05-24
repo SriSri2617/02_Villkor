@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54002bed-334e-40d8-bc93-0623ebd02f94" name="Changes" comment="Updated modules.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54002bed-334e-40d8-bc93-0623ebd02f94" name="Changes" comment="Updated modules." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +59,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Automation with Python/PythonProjects/tapvt26/PythonProject/Mathumitha/02_villkor",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +89,7 @@
       <workItem from="1779392204019" duration="2577000" />
       <workItem from="1779452245679" duration="9325000" />
       <workItem from="1779637787779" duration="5971000" />
+      <workItem from="1779646862604" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="Update - Readme">
       <option name="closed" value="true" />
