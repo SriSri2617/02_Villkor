@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54002bed-334e-40d8-bc93-0623ebd02f94" name="Changes" comment="Updated modules.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1779378437444" duration="10848000" />
       <workItem from="1779392204019" duration="2577000" />
       <workItem from="1779452245679" duration="9325000" />
-      <workItem from="1779637787779" duration="5008000" />
+      <workItem from="1779637787779" duration="5971000" />
     </task>
     <task id="LOCAL-00001" summary="Update - Readme">
       <option name="closed" value="true" />
