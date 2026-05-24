@@ -99,8 +99,9 @@ Values tested with
 
 #5 Calculators
 if elif is used to find the largest and same numbers.
-For finding the middle number - len() function is used -  this will count list of numbers entered.
-// is used to leave the decimal point, list/2 is - finding the middle position
+
+    - For finding the middle number - len() function is used -  this will count list of numbers entered.
+    - // is used to leave the decimal point, list/2 is - finding the middle position
 
 
 Tested with values
