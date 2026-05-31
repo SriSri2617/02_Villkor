@@ -21,15 +21,5 @@ def get_fahrenheit():
 
 #-------------------------------------------------------------------------------------------------------
 
-# 5 - Calculators
-# input for getting 3 nos
-def get_number1():
-    return int(input("Enter a number_1: "))
-def get_number2():
-    return int(input("Enter a number_2: "))
-def get_number3():
-    return int(input("Enter a number_3: "))
-
-#-------------------------------------------------------------------------------------------------------
 
 

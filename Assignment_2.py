@@ -1,5 +1,5 @@
-from input_functions import fahrenheit_conversion, get_celsius, get_fahrenheit, celsius_Conversion, get_number1, \
-    get_number2, get_number3
+from input_functions import (fahrenheit_conversion, get_celsius, get_fahrenheit,
+                             celsius_Conversion)
 
 
 # 1 - Shopping program
@@ -28,6 +28,8 @@ def discount_program():
     final_price = price * (100 - discount) / 100
     print(f"Efter rebatter blir priset... {final_price:.2f} kr \n\n")
 
+discount_program()
+
 
 #------------------------------------------------------------------------------------------------
 
@@ -42,6 +44,8 @@ def height_program():
         print("Your are allowed to ride")
     else:
         print("Your are not allowed to ride \n\n")
+
+height_program()
 
 
 #-------------------------------------------------------------------------------------------
@@ -72,6 +76,8 @@ def championship_league():
     else:
         print("Liverpool won the match")
         print(f"Liverpool won by {goals_ahead} goals \n")
+
+championship_league()
 
 
 #------------------------------------------------------------------------------------------------
@@ -110,14 +116,17 @@ def temp_conversion():
     elif temp_choice == "F" and celsius_C <= 10:
         print("It's cold outside and don't forget to wear jacket \n")
 
+
+temp_conversion()
+
 #------------------------------------------------------------------------------------------------
 
 # 5 - Calculators
 #5.1 - Sum of 3 nos
 def calculator():
-    number_1 = get_number1()
-    number_2 = get_number2()
-    number_3 = get_number3()
+    number_1 = int(input("Enter first number : "))
+    number_2 = int(input("Enter second number : "))
+    number_3 = int(input("Enter third number : "))
 
     total = number_1 + number_2 + number_3
     print(f"Sum of 3 numbers are : {total} \n")
@@ -132,12 +141,14 @@ def calculator():
         print(f"number_3 {number_3} is the largest \n")
 
     # 5.3 - finding the same number
-    if number_1 == number_2 and number_1 != number_3:
+    if number_1 == number_2 == number_3:
+        print("All the numbers are same \n")
+    if number_1 == number_2 :
         print(f"number_1 and number_2 are same : {number_1, number_2} \n")
-    elif number_1 == number_3 and number_1 != number_2:
-         print(f"number_1 and number_3 are same : {number_1, number_3} \n")
-    elif number_2 == number_3 and number_2 != number_1:
-        print(f"number_2 and number_3 are same : {number_2, number_3} \n")
+    elif number_2 == number_3 :
+         print(f"number_2 and number_3 are same : {number_1, number_3} \n")
+    elif number_1 == number_3 :
+        print(f"number_1 and number_3 are same : {number_2, number_3} \n")
 
     #5.4 Finding the middle number
     if number_1 == number_2 or number_2 == number_3:
@@ -154,4 +165,6 @@ def calculator():
         #getting the middle no value
         middle_number = number_entered[middle_position]
         print(f"Middle number is : {middle_number} \n")
+
+calculator()
 
