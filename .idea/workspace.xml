@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54002bed-334e-40d8-bc93-0623ebd02f94" name="Changes" comment="updated readme">
-      <change afterPath="$PROJECT_DIR$/Assignment_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment_3_GuessNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment_3_LoopsAndLists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment_3_Shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment_3_ToDoList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_4_Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_4_Modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_4_TheGame21.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,40 +53,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Notification.DisplayName-DoNotAsk-vcs.commit.finished": "3 files committed",
-    "Notification.DoNotAsk-vcs.commit.finished": "true",
-    "Python.Assignment_2.executor": "Run",
-    "Python.Assignment_3.executor": "Run",
-    "Python.Assignment_3_GuessNumber.executor": "Run",
-    "Python.Assignment_3_LoopsAndLists.executor": "Run",
-    "Python.Assignment_3_Shapes.executor": "Run",
-    "Python.Assignment_3_ToDoList.executor": "Run",
-    "Python.Assignment_LoopsAndLists_3.executor": "Run",
-    "Python.exercise_2.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "git.auto.fetch.suggestion.counter": "1",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Automation with Python/PythonProjects/tapvt26/PythonProject/Mathumitha/02_villkor",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-vcs.commit.finished&quot;: &quot;3 files committed&quot;,
+    &quot;Notification.DoNotAsk-vcs.commit.finished&quot;: &quot;true&quot;,
+    &quot;Python.Assignment_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_3_GuessNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_3_LoopsAndLists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_3_Shapes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_3_ToDoList.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_4_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_4_Modules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_4_TheGame21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment_LoopsAndLists_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Automation with Python/PythonProjects/tapvt26/PythonProject/Mathumitha/02_villkor&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Assignment_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="02_villkor" />
@@ -116,8 +118,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Assignment_4_Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_villkor" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment_4_Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Assignment_4_Main" />
         <item itemvalue="Python.Assignment_3" />
       </list>
     </recent_temporary>
@@ -148,6 +176,14 @@
       <workItem from="1780136767011" duration="6612000" />
       <workItem from="1780216755289" duration="6158000" />
       <workItem from="1780222966940" duration="15934000" />
+      <workItem from="1780312932932" duration="3356000" />
+      <workItem from="1780321077349" duration="835000" />
+      <workItem from="1780397618293" duration="9843000" />
+      <workItem from="1780494886324" duration="10698000" />
+      <workItem from="1780731675594" duration="12743000" />
+      <workItem from="1780838993966" duration="2386000" />
+      <workItem from="1780918278774" duration="3016000" />
+      <workItem from="1780987998461" duration="3833000" />
     </task>
     <task id="LOCAL-00001" summary="Update - Readme">
       <option name="closed" value="true" />
@@ -264,14 +300,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/02_villkor$Assignment_3.coverage" NAME="Assignment_3 Coverage Results" MODIFIED="1780248928277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/02_villkor$Assignment_3_ToDoList.coverage" NAME="Assignment_3_ToDoList Coverage Results" MODIFIED="1780249351704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$Assignment_3.coverage" NAME="Assignment_3 Coverage Results" MODIFIED="1780312949275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/02_villkor$Assignment_3_GuessNumber.coverage" NAME="Assignment_3_GuessNumber Coverage Results" MODIFIED="1780249396651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/02_villkor$exercise_2.coverage" NAME="exercise_2 Coverage Results" MODIFIED="1779384358875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/02_villkor$Assignment_3_LoopsAndLists.coverage" NAME="Assignment_3_LoopsAndLists Coverage Results" MODIFIED="1780249015443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/02_villkor$main.coverage" NAME="main Coverage Results" MODIFIED="1779647974066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/02_villkor$Assignment_2.coverage" NAME="Assignment_2 Coverage Results" MODIFIED="1779804759811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$Assignment_4_Modules.coverage" NAME="Assignment_4_Modules Coverage Results" MODIFIED="1780751625937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$Assignment_3_LoopsAndLists.coverage" NAME="Assignment_3_LoopsAndLists Coverage Results" MODIFIED="1780316278429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$test.coverage" NAME="test Coverage Results" MODIFIED="1780734736450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$Assignment_4.coverage" NAME="Assignment_4 Coverage Results" MODIFIED="1780733236868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/02_villkor$Assignment_3_Shapes.coverage" NAME="Assignment_3_Shapes Coverage Results" MODIFIED="1780230116428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/02_villkor$Assignment_LoopsAndLists_3.coverage" NAME="Assignment_LoopsAndLists_3 Coverage Results" MODIFIED="1780229716726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$main.coverage" NAME="main Coverage Results" MODIFIED="1779647974066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$Assignment_2.coverage" NAME="Assignment_2 Coverage Results" MODIFIED="1779804759811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$Assignment_4_Main.coverage" NAME="Assignment_4_Main Coverage Results" MODIFIED="1780999187876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02_villkor$Assignment_4_TheGame21.coverage" NAME="Assignment_4_TheGame21 Coverage Results" MODIFIED="1780998150143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

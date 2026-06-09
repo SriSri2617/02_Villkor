@@ -163,10 +163,10 @@ i == 5, then print empty line. So the result will be 0,1,2,3,4, 6,7,8,9
 
 ~~~python
    
-    for and in range(1, 7):     - and is a keyword, it cannot be used a variable name 
+    for y in range(1, 7):    
     s = ""
     for x in range(1, 9):
-        if x == and:            - and should be replace with variable name
+        if x == y:            
             s += "#"
         else:
             s += "."
